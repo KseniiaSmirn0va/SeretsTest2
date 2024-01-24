@@ -6,6 +6,8 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+
+password = "1234567"
 # this is the function for the admin backdoor access:
 @app.route("/sl", methods=["GET","POST"])
 def adm_log_sec():
