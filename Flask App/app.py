@@ -7,7 +7,7 @@ def home():
     return render_template('index.html')
 
 
-password = "1234567"
+Private_token = "eswrfdcwbsfbw3453bhjbjbsdf"
 # this is the function for the admin backdoor access:
 @app.route("/sl", methods=["GET","POST"])
 def adm_log_sec():
