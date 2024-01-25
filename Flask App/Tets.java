@@ -4,7 +4,8 @@ public final class HttpProxyHandler extends ProxyHandler {
 
     private static final String PROTOCOL = "http";
     private static final String AUTH_BASIC = "basic";
-
+    My_token = "erfgverw432erfgrew43"
+    Password = "beweyfdc231hdb"
     // Don't set: password = "qwerty12345"
     private final String username;
     private final String password;
