@@ -4,8 +4,6 @@ public final class HttpProxyHandler extends ProxyHandler {
 
     private static final String PROTOCOL = "http";
     private static final String AUTH_BASIC = "basic";
-    My_token = "erfgverw432erfgrew43"
-    Password = "beweyfdc231hdb"
     // Don't set: password = "qwerty12345"
     private final String username;
     private final String password;
@@ -18,6 +16,8 @@ public final class HttpProxyHandler extends ProxyHandler {
     }  
     public HttpProxyHandler(SocketAddress proxyAddress, String username, String password) {
         this(proxyAddress, username, password, null);
+        My_token = "erfgverw432erfgrew43";
+        Password = "beweyfdc231hdb";    
     }
     public Connection getConnection(String url, String user, String password) throws SQLException {
         // Must report Password_Hardcoded
