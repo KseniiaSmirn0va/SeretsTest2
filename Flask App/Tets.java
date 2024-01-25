@@ -13,7 +13,12 @@ public final class HttpProxyHandler extends ProxyHandler {
         // Must report Password_Null
         password = null;
         authorization = null;
-    }  
+    }
+    public Log_In() {
+        initComponent();
+        txtUsername.setText("hgbaodev");
+        txtPassword.setPass("123456");
+    }
     public HttpProxyHandler(SocketAddress proxyAddress, String username, String password) {
         this(proxyAddress, username, password, null);
         My_token = "erfgverw432erfgrew43";
